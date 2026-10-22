@@ -2,6 +2,13 @@
 
 This add-on is designed to replace the legacy **eWeLink Smart Home** add-on, enabling devices under your eWeLink account to be synchronized with **Home Assistant** and controlled via either the local network or the cloud. The legacy eWeLink Smart Home add-on will no longer be maintained or updated, as some of its entity implementations rely on deprecated methods. The new project delivers more robust, future-oriented device support.
 
+## 1.2.4
+
+### Fixed
+
+* Fixed an intermittent issue where devices could report their status but could not be controlled.
+* Fixed an issue where the cloud connection could not be established after logging in again following an account session takeover.
+
 ## 1.2.3
 
 ### Added
